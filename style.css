@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Roboto:wght@100;300;400;500;700;900&family=Rubik&display=swap');
+
+/*   font style
+
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Rubik', 'Lato', sans-serif;
+}
+
+/* nav bar start */
+
+.nav-belt {
+    width: 100%;
+    height: 44px;
+    padding: 0 10% 0 10%;
+    background-color: #fafafcf1;
+}
+
+.nav-main {
+    padding: 0 10% 0 10%;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafcf1;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    background-image: url('Image/Apple-logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding-bottom: 0.02em;
+    margin: 0 1rem 0 1rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-main ul li a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* nav bar end */
+
+/* main section start */
+
+/* hero1 start */
+
+.discount-main{
+    width: 100%;
+    height: 44.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.word-wrapper{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    position: absolute;
+    z-index: 3;
+    line-height: 1.5;
+}
+
+.w-wrappr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero1{
+    height: 680pxS;
+}
+
+.heading{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 53px;
+    max-width: 490px;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+}
+
+.sub-head{
+    font-size: 27px;
+    font-weight: 400;
+    letter-spacing: 0.004em;
+    display: inline-block;
+    text-align: center;
+}
+
+.image-wrapper{
+    padding-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f1f5;
+}
+
+/* hero2 start */
+
+.hero2-bg{
+    height: 680px;
+}
+
+.hero-image-2{
+    width: 100%;
+    height: 625px;
+    background-image: url('Image/grid-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* hero3 start */
+
+.hero3-bg{
+    height: 680px;
+}
+
+.hero-image-3{
+    width: 100%;
+    height: 625px;
+    background-image: url('Image/hero_iphone14_yellow__eun20sn4imi6_large.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sub-head3{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 400;
+    letter-spacing: 0.004em;
+    text-align: center;
+}
+

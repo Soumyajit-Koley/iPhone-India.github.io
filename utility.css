@@ -1,0 +1,47 @@
+/* text color */
+
+.w-text{
+    color: #323233;
+}
+.b-text{
+    color: #000000;
+}
+.b1-text{
+    color: #1d1d1f;
+}
+.blue-1{
+    color: #0066cc;
+}
+
+/* text color hover  */
+
+.w-text:hover{
+    color: #000000;
+    font-weight: 500;
+}
+
+/* margin & padding */
+
+
+.p-015{
+    padding-top: 0.15em;
+}
+.p-1{
+    padding-left: 1em;
+}
+.m-r-1{
+    margin-right: 0.75em;
+}
+/* font style */
+
+#f-17{
+    font-size: 17px;
+}
+
+.f-27{
+    font-size: 27px;
+}
+
+.text-dn{
+    text-decoration: none;
+}
